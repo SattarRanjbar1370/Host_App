@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jsnkpyxe/laravel_core/
+    - /bin/rsync -av --exclude='.git' --exclude='.env' --exclude='storage' --exclude='vendor' ./ $DEPLOYPATH
