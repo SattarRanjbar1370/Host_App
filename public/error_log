@@ -1,0 +1,769 @@
+[23-Sep-2026 18:05:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function symlink() in /home/jsnkpyxe/public_html/link.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/jsnkpyxe/public_html/link.php on line 11
+[23-Sep-2026 18:05:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function symlink() in /home/jsnkpyxe/public_html/link.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/jsnkpyxe/public_html/link.php on line 11
+[24-Sep-2026 14:03:44 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:03:47 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:17:02 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:17:12 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:17:17 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:17:20 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:17:56 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:23:25 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:39:02 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[24-Sep-2026 14:41:37 UTC] PHP Fatal error:  Trait "Laravel\Sanctum\HasApiTokens" not found in /home/jsnkpyxe/laravel_core/app/Models/User.php on line 15
+[25-Sep-2026 10:56:24 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[25-Sep-2026 10:56:25 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[25-Sep-2026 10:56:35 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[25-Sep-2026 10:57:54 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[25-Sep-2026 15:47:11 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php:1) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ErrorException))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[26-Sep-2026 05:44:56 Asia/Tehran] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.1.34. in /home/jsnkpyxe/laravel_core/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/composer/autoload_real.php(25): require()
+#1 /home/jsnkpyxe/laravel_core/vendor/autoload.php(22): ComposerAutoloaderInitcda2add6397422fb1a2eb5b9207f1575::getLoader()
+#2 /home/jsnkpyxe/public_html/index.php(14): require('/home/jsnkpyxe/...')
+#3 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/composer/platform_check.php on line 22
+[26-Sep-2026 05:45:00 Asia/Tehran] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.1.34. in /home/jsnkpyxe/laravel_core/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/composer/autoload_real.php(25): require()
+#1 /home/jsnkpyxe/laravel_core/vendor/autoload.php(22): ComposerAutoloaderInitcda2add6397422fb1a2eb5b9207f1575::getLoader()
+#2 /home/jsnkpyxe/public_html/index.php(14): require('/home/jsnkpyxe/...')
+#3 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/composer/platform_check.php on line 22
+[26-Sep-2026 05:45:05 Asia/Tehran] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.1.34. in /home/jsnkpyxe/laravel_core/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/composer/autoload_real.php(25): require()
+#1 /home/jsnkpyxe/laravel_core/vendor/autoload.php(22): ComposerAutoloaderInitcda2add6397422fb1a2eb5b9207f1575::getLoader()
+#2 /home/jsnkpyxe/public_html/index.php(14): require('/home/jsnkpyxe/...')
+#3 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/composer/platform_check.php on line 22
+[26-Sep-2026 07:44:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[26-Sep-2026 07:44:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[26-Sep-2026 07:57:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[26-Sep-2026 07:57:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[26-Sep-2026 13:02:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[26-Sep-2026 14:39:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[29-Sep-2026 12:11:16 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:11:16 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:11:59 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:12:16 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:12:19 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:16:39 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:16:40 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:16:40 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:22:13 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:22:13 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:23:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:23:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:23:53 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:23:53 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:24:16 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:24:16 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:24:16 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:25:04 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::getMessages() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 660
+[29-Sep-2026 12:27:06 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:28:28 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:30:35 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:30:46 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:30:58 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:31:00 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:31:01 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:31:03 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:31:06 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:31:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:31:10 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 12:31:13 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 13:08:05 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 13:08:50 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 13:08:55 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 13:08:56 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 13:09:02 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 13:09:03 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 13:09:04 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:31:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:31:22 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:31:22 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:32:17 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:32:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:32:57 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:32:57 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:34:02 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:34:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:34:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:34:47 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:34:55 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:34:55 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:35:27 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[29-Sep-2026 14:35:28 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::storeMessage() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 684
+[30-Sep-2026 16:57:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 17:06:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 17:26:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 21:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 21:51:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 21:51:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 21:51:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 21:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[30-Sep-2026 21:51:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:257
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt('/home/jsnkpyxe/...', 257, 5)
+#1 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/trace.htm...', Array)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#4 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/traces.ht...', Array)
+#5 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#6 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#7 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(335): include('/home/jsnkpyxe/...')
+#8 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(140): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include('views/exception...', Array)
+#9 /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(72): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#10 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1025): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render(Object(Symfony\Component\ErrorHandler\Exception\FlattenException))
+#11 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(999): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Error), true)
+#12 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(974): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent(Object(Error))
+#13 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(953): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#14 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(844): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#15 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(731): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#16 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#17 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#18 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(Error))
+#20 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 257
+[21-Oct-2026 14:58:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 14:59:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:00:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:01:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:02:04 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:03:04 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:04:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:05:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:06:17 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:06:18 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:06:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:06:58 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:06:59 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:07:01 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:07:01 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:07:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:07:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:08:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:09:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:09:09 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:09:13 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:09:22 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:09:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:10:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:11:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:12:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:13:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:14:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:15:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:16:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:17:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:18:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:19:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:20:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:21:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:22:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:23:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:24:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:25:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:26:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:27:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:28:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:29:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:30:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:31:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:32:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:33:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:34:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:35:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:36:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:37:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:38:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:39:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:40:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:41:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:42:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:43:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:44:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:45:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:46:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:47:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:48:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:49:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:50:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:51:38 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:52:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:53:38 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:54:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:55:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:56:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:57:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:58:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 15:59:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:00:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:01:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:02:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:03:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:04:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:05:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:06:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:07:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:08:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:09:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:10:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:11:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:12:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:13:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:14:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:15:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:16:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:17:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:18:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:19:38 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:20:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:21:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:22:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:23:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:24:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:25:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:26:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:27:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:28:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:29:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:30:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:31:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:32:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:33:23 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:33:29 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:33:32 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:33:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:33:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:33:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:33:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:34:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:35:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:36:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:37:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:38:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:39:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:40:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:41:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:42:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:43:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:44:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:45:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:46:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:47:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:48:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:49:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:50:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:51:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:52:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:53:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:54:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:55:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:56:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 16:57:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::calculateNextJalaliMonth() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 1286
+[21-Oct-2026 18:22:19 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:23:09 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:23:09 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:23:20 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:23:44 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:23:53 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:24:02 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:24:04 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:24:18 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:24:18 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:24:41 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:24:44 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[21-Oct-2026 18:25:44 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\ApiAdminController::archive() in /home/jsnkpyxe/laravel_core/app/Http/Controllers/Api/ApiAdminController.php on line 996
+[22-Oct-2026 20:40:10 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:40:17 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:40:18 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:40:18 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:41:17 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:41:44 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:41:44 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:41:45 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Oct-2026 20:42:45 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:393) in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(2, 'Cannot modify h...', '/home/jsnkpyxe/...', 328)
+#2 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(328): header('HTTP/1.0 500 In...', true, 500)
+#3 /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(228): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(205): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ParseError))
+#6 /home/jsnkpyxe/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(265): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():264}(Object(ParseError))
+#8 {main}
+  thrown in /home/jsnkpyxe/laravel_core/vendor/symfony/http-foundation/Response.php on line 328

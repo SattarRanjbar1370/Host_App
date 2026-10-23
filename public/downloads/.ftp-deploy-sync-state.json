@@ -1,0 +1,43 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1792755874470,
+    "data": [
+        {
+            "type": "file",
+            "name": "app-release.apk",
+            "size": 3074118,
+            "hash": "593f98bcc9a27c5213e55dfd44cc1269a862aba0b822537b03b2123b6ac58d43"
+        },
+        {
+            "type": "folder",
+            "name": "baselineProfiles"
+        },
+        {
+            "type": "file",
+            "name": "output-metadata.json",
+            "size": 709,
+            "hash": "ee9f09d6225c1ab7e52ea4b9fb5214caf6ab273829a50df11b6c71fd7d1e3b29"
+        },
+        {
+            "type": "folder",
+            "name": "baselineProfiles/0"
+        },
+        {
+            "type": "folder",
+            "name": "baselineProfiles/1"
+        },
+        {
+            "type": "file",
+            "name": "baselineProfiles/0/app-release.dm",
+            "size": 2758,
+            "hash": "51aab6c30f6adb8a2c2cffe9cb170bcf7fc8e38d7c030284f963ab8b121acb3f"
+        },
+        {
+            "type": "file",
+            "name": "baselineProfiles/1/app-release.dm",
+            "size": 2715,
+            "hash": "3d4103496aed13b95ce641dda2b18d72dcfd7dd6d81b8a714cb49eac66e1290a"
+        }
+    ]
+}
